@@ -1,0 +1,12 @@
+.nfc {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.nf-pic {
+  width: 40%;
+}
