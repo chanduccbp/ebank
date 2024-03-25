@@ -8,7 +8,7 @@ import './App.css'
 // Replace your code here
 const App = () => (
   <Switch>
-    <ProtectedRoute exact path="/ebank/login" component={Login} />
+    <Route exact path="/ebank/login" component={Login} />
     <ProtectedRoute exact path="/" component={Home} />
     <Route component={NotFound} />
   </Switch>
